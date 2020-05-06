@@ -1,3 +1,3 @@
 # Mbit
 task
-![preview](C:\xampp\htdocs/preview.png)
+![preview](https://ibb.co/86whVWQ)
