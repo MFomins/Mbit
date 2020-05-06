@@ -1,3 +1,3 @@
 # Mbit
 task
-![GitHub Logo](/images/preview.png)
+![preview](C:\xampp\htdocs/preview.png)
