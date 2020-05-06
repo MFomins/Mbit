@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.back-img {
+  height: 100%;
+  width: 100%;
+  background-image: url(img/background.png);
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+}
+
+@media only screen and (min-width: 480px) {
+  .signup-box {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    justify-content: center;
+    width: 1200px;
+    height: 550px;
+    background: #0f1a2f;
+    padding: 5px;
+    overflow: hidden;
+    margin-top: -190px;
+    margin-left: -460px;
+    opacity: 0.9;
+  }
+}
+
+/* LEFT SIDE */
+.acc-header {
+  position: relative;
+  color: white;
+  top: 13%;
+  font-size: 30px;
+  width: auto;
+  margin-left: 10%;
+  opacity: 0.8;
+}
+
+.acc-about {
+  position: relative;
+  color: white;
+  top: 28%;
+  left: 10%;
+  line-height: 1.7;
+  text-align: left;
+  width: 30%;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.acc-undrl {
+  position: absolute;
+  display: flex;
+  border-bottom: 2px solid #49abfe;
+  top: 28%;
+  width: 50px;
+  margin-left: 10%;
+}
+
+.signup-btn {
+  position: relative;
+  top: 42%;
+  left: 10%;
+  width: 15%;
+  padding: 20px 50px;
+  cursor: pointer;
+  display: block;
+  margin: left;
+  border-color: #49abfe;
+  color: white;
+  background-color: #49abfe;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.signup-btn:hover {
+  background: none;
+}
+
+/* RIGHT SIDE */
+.acc-header2 {
+  position: relative;
+  color: white;
+  top: -26%;
+  left: 50%;
+  font-size: 30px;
+  width: auto;
+  margin-left: 10%;
+  opacity: 0.8;
+}
+
+.acc-about2 {
+  position: relative;
+  color: white;
+  top: -11%;
+  left: 60%;
+  line-height: 1.7;
+  text-align: left;
+  width: 30%;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.acc-undrl2 {
+  position: absolute;
+  display: flex;
+  border-bottom: 2px solid #49abfe;
+  top: 28%;
+  left: 50%;
+  width: 50px;
+  margin-left: 10%;
+}
+
+.signin-btn {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  width: 15%;
+  padding: 20px 50px;
+  cursor: pointer;
+  display: block;
+  border-color: #49abfe;
+  color: white;
+  background-color: #49abfe;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.signin-btn:hover {
+  background: none;
+}
+
+@media only screen and (min-width: 480px) {
+  .form-box {
+    box-shadow: -10px 0px 2px -5px rgba(153, 204, 255, .5);
+    top: 40%;
+    left: 60%;
+    width: 550px;
+    height: 600px;
+    display: block;
+    position: absolute;
+    margin-top: -210px;
+    margin-left: -220px;
+    background: #ffffff;
+    padding: 5px;
+    overflow: hidden;
+    z-index: 5;
+  }
+}
+
+.login-title {
+  padding-top: 20%;
+  padding-left: 11%;
+  position: absolute;
+  opacity: 0.7;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.login-title::before {
+  content: "";
+  padding-top: 20%;
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  bottom: 0;
+  border-bottom: 2px solid #49abfe;
+}
+
+.signup-title {
+  top: 10%;
+  padding-bottom: 15px;
+  position: absolute;
+  opacity: 0.7;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.signup-title::before {
+  content: "";
+  padding-top: 15%;
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  bottom: 0;
+  border-bottom: 2px solid #49abfe;
+}
+
+
+
+
+.registration-style {
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+.registration-style::after  {
+  content: "*";
+  color:red;
+  font-weight: bold;
+}
+
+#formreg .login-title {
+  padding-left: 0;
+  opacity: 1;
+}
+
+#formreg .input.input-field {
+  opacity: 1;
+}
+
+/* pictures */
+.logo {
+  position: relative;
+  padding-top: 22%;
+  left: 55%;
+}
+
+.signup.logo {
+  position: relative;
+  margin-top: -12%;
+  left: 85%;
+}
+
+.mail-logo {
+  position: relative;
+  margin-top: 1px;
+  left: 92%;
+}
+
+.password-logo {
+  position: relative;
+  left: 92%;
+}
+
+/* ------- */
+.input-group {
+  padding-top: 50px;
+  position: relative;
+  width: 50%;
+  opacity: 0.8;
+}
+
+.input-field {
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999999;
+  outline: none;
+  background: transparent;
+}
+
+.submit-btn {
+  margin-top: 10%;
+  width: 60%;
+  padding: 20px 50px;
+  cursor: pointer;
+  display: block;
+  margin: left;
+  background-color: #f89a35;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.forgot-btn {
+  width: 50%;
+  cursor: pointer;
+  display: flex;
+  margin: right;
+  background: white;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  left: 85%;
+  top: 87%;
+  position: absolute;
+  font-size: 16px;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+#login {
+  position: relative;
+  left: 70px;
+}
+
+#register {
+  margin-top: -80%;
+  left: 120%;
+}
+
+.rights {
+  display: block;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: boldest;
+}
+
+/* anim */
+.form-box.signup-box {
+  transition: transform 0.6s ease-in-out;
+  opacity: 1;
+  transform: translateX(-107%);
+  animation: show 0.6s;
+}
+
+.form-box.signin-box {
+  transition: transform 0.6s ease-in-out;
+  opacity: 1;
+  transform: translateX(0);
+  animation: show 0.6s;
+}
+
+.signup-box .form-login {
+  transition: transform 0.6s ease-in-out;
+  opacity: 1;
+  transform: translateX(-100%);
+  animation: show 0.6s;
+}
+
+.signin-box .form-login {
+  transition: transform 0.6s ease-in-out;
+  opacity: 1;
+  transform: translateX(0);
+  animation: show 0.6s;
+}
+
+.signup-box .form-register {
+  transition: transform 0.6s ease-in-out;
+  opacity: 1;
+  transform: translateX(-100%);
+  animation: show 0.6s;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+
+  .col-s-2 {
+    width: 16.66%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 41.66%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 58.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 83.33%;
+  }
+
+  .col-s-11 {
+    width: 91.66%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+}

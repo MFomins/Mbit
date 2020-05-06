@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login And Registration Form</title>
+  <script src="https://kit.fontawesome.com/263a15dbf5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="back-img">
+    <div class="signup-box">
+      <h2 class="acc-header"> Don't have an account? </h2>
+      <p class="acc-about"> Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum. </p>
+      <button type="signup" class="signup-btn" id="signUp">SIGN UP</button>
+      <div class="acc-undrl">
+      </div>
+      <h2 class="acc-header2"> Have an account? </h2>
+      <p class="acc-about2"> Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum. </p>
+      <button type="signin" class="signin-btn" id="signIn" style="color: white">LOGIN</button>
+      <div class="acc-undrl2">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-box" id="formbox">
+    <div class="form-shadow">
+      <div class="form-login">
+        <p class="login-title"> Login </p>
+        <div class="logo">
+          <img src="img/logo.png" alt="Logo">
+        </div>
+        <form id="login" action="authenticate.php" method="POST" class="input-group">
+          <p class="registration-style"> Email </p>
+          <div class="mail-logo">
+            <img src="img/ic_mail.png" alt="Logo">
+          </div>
+          <input type="text" name="email" class="input-field" placeholder="">
+          <p class="registration-style"> Password </p>
+          <div class="password-logo">
+            <img src="img/ic_lock.png" alt="Logo">
+          </div>
+          <input type="password" name="password" class="input-field" placeholder="">
+          <button type="submit" class="submit-btn" id="signIn" style="color:white">LOGIN</button>
+          <button type="Forgot?" class="forgot-btn">Forgot?</button>
+        </form>
+      </div>
+
+      <div class="form-register" id="formreg">
+        <form id="register" action="register.php" method="POST" autocomplete="off" class="input-group">
+          <p class="signup-title"> Sign Up </p>
+          <div class="signup logo">
+            <img src="img/logo.png" alt="Logo">
+          </div>
+          <form id="login" class="input-group">
+            <p class="registration-style"> Name </p>
+            <div class="password-logo">
+              <img src="img/ic_lock.png" alt="Logo">
+            </div>
+            <input type="text" name="username" class="input-field" placeholder="">
+            <p class="registration-style"> Email </p>
+            <div class="mail-logo">
+              <img src="img/ic_mail.png" alt="Logo">
+            </div>
+            <input type="text" name="email" class="input-field" placeholder="">
+            <p class="registration-style"> Password </p>
+            <div class="password-logo">
+              <img src="img/ic_lock.png" alt="Logo">
+            </div>
+            <input type="password" name="password" class="input-field" placeholder="">
+
+            <button type="submit" class="submit-btn" id="signUp" style="color:white">SIGN UP</button>
+          </form>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="main.js"></script>
+
+
+
+  <p class="rights"> ALL RIGHTS RESERVED "MAGEBIT" 2016. </p>
+
+</body>
+
+</html>
